@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Email signatures | Quantock Lettings</title>
+<style>
+:root{--blue:#1C4F60;--deep:#0F2D37;--teal:#52C5D1;--ink:#10252C;--teal-ink:#17707C;--line:#D3DEE1;--paper:#F4F7F8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 'Segoe UI',Helvetica,Arial,sans-serif}
+header{background:var(--deep);color:#fff;padding:28px 16px}
+header .in,main{max-width:760px;margin:0 auto}
+header img{display:block;width:172px;height:56px}
+h1,h2{font-weight:600;line-height:1.2}
+h1{font-size:30px;margin:22px 0 6px}
+header p{margin:0;color:#C9DCE1}
+main{padding:8px 16px 60px}
+h2{font-size:22px;margin:40px 0 10px;color:var(--blue)}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px;overflow-x:auto}
+.who{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:16px}
+.who label{display:block;font-size:13px;font-weight:600;color:var(--blue)}
+.who input,.who select{width:100%;margin-top:4px;padding:9px 10px;border:1px solid #B9C9CE;border-radius:8px;font:15px 'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);background:#fff}
+.who .full{grid-column:1/-1}
+.who .hint{grid-column:1/-1;margin:0;font-size:14px;color:#5B6F76}
+@media (max-width:560px){.who{grid-template-columns:1fr}}
+.btn{display:inline-block;margin-top:16px;background:var(--blue);color:#fff;border:0;border-radius:999px;padding:12px 24px;font:600 15px 'Segoe UI',Helvetica,Arial,sans-serif;cursor:pointer}
+.btn:hover{background:var(--deep)}
+.done{margin-left:12px;color:var(--teal-ink);font-weight:600;font-size:15px;opacity:0;transition:opacity .2s}
+.done.on{opacity:1}
+ol{padding-left:22px;margin:8px 0}
+li{margin:6px 0}
+.k{font-weight:600}
+.note{background:#E8F4F6;border-left:3px solid var(--teal-ink);padding:12px 16px;border-radius:0 8px 8px 0;margin:14px 0;font-size:15px}
+details{border:1px solid var(--line);border-radius:12px;background:#fff;margin:12px 0}
+summary{cursor:pointer;padding:16px 20px;font-weight:600;color:var(--blue);font-size:17px}
+details .b{padding:0 20px 18px}
+.mob{font:14px/1.5 'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);white-space:pre-wrap}
+footer{max-width:760px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#5B6F76}
+</style>
+</head>
+<body>
+<header><div class="in">
+<img src="ql-logo.png?v=1" alt="Quantock Lettings" width="172" height="56">
+<h1>Your new email signature</h1>
+<p>Pick your name, check your details, then copy the signature and paste it into Outlook using the steps for your device.</p>
+</div></header>
+<main>
+
+<p class="note" id="phone-note" hidden><span class="k">On a phone?</span> Pick your name, then scroll down to <a href="#iphone">iPhone</a> and use <span class="k">Copy phone signature</span>. The full signature is for computers and comes out with lines and cut-off text in the phone apps.</p>
+<h2>1. Check your details</h2>
+<div class="who">
+<label class="full">Whose signature is this?<select id="person"><option value="neil">Neil Hudson</option><option value="cheryl">Cheryl Hudson</option><option value="hattie">Hattie Rogers</option></select></label>
+<label>Name<input id="f-name" autocomplete="off"></label>
+<label>Letters after your name<input id="f-quals" autocomplete="off"></label>
+<label class="full">Job title<input id="f-title" autocomplete="off"></label>
+<label>Mobile<input id="f-mobile" autocomplete="off" inputmode="tel"></label>
+<label>Email<input id="f-email" autocomplete="off" inputmode="email"></label>
+<label>Sign off as<input id="f-first" autocomplete="off"></label>
+<p class="hint">Leave a box empty and that line is left out of the signature. Changes show straight away below.</p>
+</div>
+
+<h2>2. Copy the signature</h2>
+<div class="card"><div id="sig"></div></div>
+<button class="btn" data-copy="sig">Copy signature</button><span class="done" id="done-sig">Copied. Now paste it into Outlook.</span>
+<p class="note">If the button does nothing, click just above &ldquo;Kind regards&rdquo;, drag down to the end of the small print to highlight the whole signature, then press <span class="k">Ctrl + C</span> (Windows) or <span class="k">Cmd + C</span> (Mac).</p>
+
+<h2>3. Paste it into Outlook</h2>
+<p>Open this page on the computer you are setting up, copy the signature, then follow the steps for that version of Outlook. Each computer needs doing once.</p>
+
+<details open><summary>Outlook on a Windows PC (the classic version)</summary><div class="b">
+<ol>
+<li>Open Outlook and click <span class="k">File</span>, then <span class="k">Options</span>, then <span class="k">Mail</span>, then the <span class="k">Signatures&hellip;</span> button.</li>
+<li>Click <span class="k">New</span>, type the name <span class="k">QL 2026</span> and click OK.</li>
+<li>Click in the big empty box under <span class="k">Edit signature</span> and press <span class="k">Ctrl + V</span>.</li>
+<li>On the right, in the <span class="k">E-mail account</span> box, choose office@quantocklettings.co.uk. Then set <span class="k">New messages</span> and <span class="k">Replies/forwards</span> to <span class="k">QL 2026</span>.</li>
+<li>Click <span class="k">OK</span>, then <span class="k">OK</span> again.</li>
+</ol>
+<p class="note">If you had an old signature, select it in the list and click <span class="k">Delete</span> once the new one is working, so it can&rsquo;t be picked by accident.</p>
+</div></details>
+
+<details><summary>New Outlook for Windows, or Outlook in a web browser</summary><div class="b">
+<ol>
+<li>Click the <span class="k">cog</span> (Settings) at the top right.</li>
+<li>Go to <span class="k">Account</span>, then <span class="k">Signatures</span>. If you have more than one email account, pick office@quantocklettings.co.uk at the top.</li>
+<li>Click <span class="k">+ New signature</span>, name it <span class="k">QL 2026</span>, click in the box and press <span class="k">Ctrl + V</span>.</li>
+<li>Click <span class="k">Save</span>.</li>
+<li>Under <span class="k">Choose default signatures</span>, pick <span class="k">QL 2026</span> for both <span class="k">For new messages</span> and <span class="k">For replies/forwards</span>, then click <span class="k">Save</span>.</li>
+</ol>
+</div></details>
+
+<details><summary>Outlook on a Mac</summary><div class="b">
+<ol>
+<li>Open Outlook. In the menu bar at the top of the screen click <span class="k">Outlook</span>, then <span class="k">Settings</span>, then <span class="k">Signatures</span>.</li>
+<li>Click the <span class="k">+</span> button, name it <span class="k">QL 2026</span>, click in the box and press <span class="k">Cmd + V</span>.</li>
+<li>Save it, then under <span class="k">Choose default signature</span> pick office@quantocklettings.co.uk, and choose <span class="k">QL 2026</span> for <span class="k">New messages</span> and <span class="k">Replies/forwards</span>.</li>
+</ol>
+</div></details>
+
+<details id="iphone"><summary>iPhone (Outlook app or Apple Mail)</summary><div class="b">
+<p>Phones keep their own signature, separate from the computer. On the phone, only use this shorter version. Pasting the full signature into the Outlook app gives it lines and cuts off the small print.</p>
+<div class="card mob" id="mob"></div>
+<button class="btn" data-copy="mob">Copy phone signature</button><span class="done" id="done-mob">Copied.</span>
+<p style="margin-top:20px"><span class="k">Outlook app on iPhone</span></p>
+<ol>
+<li>Open this page on the iPhone, pick your name at the top, then tap <span class="k">Copy phone signature</span>.</li>
+<li>Open the Outlook app, tap your picture at the top left, then the <span class="k">cog</span> at the bottom left.</li>
+<li>Tap <span class="k">Signature</span>, delete what is there, then press and hold in the box and tap <span class="k">Paste</span>. Tap back to save.</li>
+</ol>
+<p style="margin-top:20px"><span class="k">Apple Mail on iPhone</span></p>
+<ol>
+<li>Copy the phone signature as above.</li>
+<li>Open <span class="k">Settings</span>, then <span class="k">Apps</span>, then <span class="k">Mail</span>, then <span class="k">Signature</span>.</li>
+<li>Delete what is there, press and hold in the box and tap <span class="k">Paste</span>, then go back.</li>
+</ol>
+</div></details>
+
+<h2>4. Check it</h2>
+<ol>
+<li>Start a new email in Outlook. The signature should appear on its own, with the logo.</li>
+<li>Send one test email to Marcus so he can check it on his side.</li>
+</ol>
+<p class="note">If Outlook shows a small box where the logo should be, click <span class="k">Download pictures</span> at the top of the email, or check the computer is online. The pictures load from the Quantock Lettings website.</p>
+</main>
+<footer>Quantock Lettings, 1 The Crescent, Taunton, Somerset TA1 4EA</footer>
+<script>
+
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function render(B,p,V){
+  var F="font-family:'Segoe UI',Helvetica,Arial,sans-serif;mso-line-height-rule:exactly;";
+  var BLUE='#1C4F60',TI='#17707C',TEAL='#52C5D1',INK='#10252C',MUTED='#5B6F76',RULE='#D3DEE1';
+  function t(size,lh,color,w){return F+'font-size:'+size+'px;line-height:'+lh+'px;color:'+color+';font-weight:'+(w||'normal')+';';}
+  function a(href,label,color,w,u){var d=u?'underline':'none';return '<a href="'+esc(href)+'" target="_blank" style="color:'+color+';text-decoration:'+d+';font-weight:'+(w||'normal')+';"><span style="color:'+color+';text-decoration:'+d+';">'+esc(label)+'</span></a>';}
+  function row(style,inner){return '<tr><td style="'+style+'">'+inner+'</td></tr>\n';}
+  function tel(n){return 'tel:+44'+n.replace(/\s/g,'').replace(/^0/,'');}
+  var lab='<span style="color:'+TI+';font-weight:bold;">', body=t(13,19,INK)+'padding:0;';
+  var h='<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="460" style="width:100%;max-width:460px;border-collapse:collapse;">\n';
+  if(p.first) h+=row(t(14,20,INK)+'padding:0 0 16px 0;','Kind regards,<br><b>'+esc(p.first)+'</b>');
+  h+=row(t(18,24,BLUE,'bold')+'padding:0;',esc(p.name)+(p.quals?' <span style="font-size:13px;font-weight:normal;color:'+MUTED+';">'+esc(p.quals)+'</span>':''));
+  if(p.title) h+=row(t(13,19,TI,'bold')+'padding:1px 0 0 0;',esc(p.title));
+  h+=row('padding:10px 0 10px 0;','<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr><td width="44" height="2" bgcolor="'+TEAL+'" style="width:44px;height:2px;background-color:'+TEAL+';font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td></tr></table>');
+  var phones=lab+'T</span>&nbsp; '+a(tel(B.tel),B.tel,INK);
+  if(p.mobile) phones+='&nbsp;&nbsp;&nbsp;&nbsp;'+lab+'M</span>&nbsp; '+a(tel(p.mobile),p.mobile,INK);
+  h+=row(body,phones);
+  if(p.email) h+=row(body,lab+'E</span>&nbsp; '+a('mailto:'+p.email,p.email,INK));
+  h+=row(body,lab+'W</span>&nbsp; '+a(B.site,B.siteLabel,INK));
+  h+=row(body+'color:'+MUTED+';',esc(B.address));
+  var lr='<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>'+
+    '<td style="padding:0 16px 0 0;" valign="middle"><a href="'+esc(B.site)+'" target="_blank" style="text-decoration:none;"><img src="'+B.img+'/'+B.logo+'?v='+V+'" width="172" height="56" alt="'+esc(B.brand)+'" border="0" style="display:block;width:172px;height:56px;border:0;outline:none;"></a></td>';
+  B.socials.forEach(function(s){lr+='<td style="padding:0 6px 0 0;" valign="middle"><a href="'+esc(s[1])+'" target="_blank" style="text-decoration:none;"><img src="'+B.img+'/'+s[2]+'?v='+V+'" width="24" height="24" alt="'+s[0]+'" border="0" style="display:block;width:24px;height:24px;border:0;outline:none;"></a></td>';});
+  lr+='</tr></table>';
+  h+=row('padding:14px 0 16px 0;',lr);
+  var li='<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">\n'+row(t(11,16,TI,'bold')+'letter-spacing:1px;padding:0 0 4px 0;',B.linksTitle);
+  B.links.forEach(function(l){li+=row(t(13,19,INK)+'padding:0 0 4px 0;',esc(l[0])+a(l[2],l[1],TI,'bold',true));});
+  li+='</table>';
+  h+=row('padding:12px 0 0 0;border-top:1px solid '+RULE+';',li);
+  var sm=esc(B.small[0])+(B.small[1]?a(B.small[2],B.small[1],TI,'normal',true)+esc(B.small[3]):'');
+  h+=row(t(11,16,MUTED)+'padding:12px 0 0 0;',sm);
+  return h+'</table>';
+}
+function renderText(B,p){
+  var L=[];
+  if(p.first){L.push('Kind regards,');L.push(p.first);L.push('');}
+  L.push(p.name+(p.quals?' '+p.quals:''));
+  if(p.title)L.push(p.title);
+  L.push(B.brand);
+  L.push('T '+B.tel+(p.mobile?'  M '+p.mobile:''));
+  if(p.email)L.push(p.email);
+  L.push(B.siteLabel);L.push('');L.push(B.smallText);
+  return L.join('\n');
+}
+
+var B={"key": "ql", "brand": "Quantock Lettings", "img": "https://quantocklettings.co.uk/email-signature", "site": "https://quantocklettings.co.uk/", "siteLabel": "www.quantocklettings.co.uk", "tel": "01823 765654", "address": "1 The Crescent, Taunton, Somerset. TA1 4EA", "logo": "ql-logo.png", "sigName": "QL 2026", "account": "office@quantocklettings.co.uk", "socials": [], "linksTitle": "USEFUL LINKS", "links": [["Thinking of letting your home? ", "Book a free valuation", "https://quantocklettings.co.uk/landlords#valuation"], ["Read our ", "landlord guide", "https://quantocklettings.co.uk/landlord-guide.pdf"], ["Renting with us? Read our ", "tenant guide", "https://quantocklettings.co.uk/tenant-guide.pdf"], ["Something needs fixing? ", "Report maintenance", "https://quantocklettings.co.uk/#maintenance"]], "small": ["Quantock Lettings Ltd. Registered in England and Wales, company number 15929562.", "", "", ""], "smallText": "Quantock Lettings Ltd. Registered in England and Wales, company number 15929562.", "people": [{"id": "neil", "first": "Neil", "name": "Neil Hudson", "quals": "", "title": "", "mobile": "07918 612847", "email": "office@quantocklettings.co.uk"}, {"id": "cheryl", "first": "Cheryl", "name": "Cheryl Hudson", "quals": "", "title": "", "mobile": "", "email": "office@quantocklettings.co.uk"}, {"id": "hattie", "first": "Hattie", "name": "Hattie Rogers", "quals": "", "title": "", "mobile": "07467 879882", "email": "office@quantocklettings.co.uk"}]},V="1";
+var F=['name','quals','title','mobile','email','first'],sel=document.getElementById('person');
+function fill(id){var p=B.people.filter(function(x){return x.id===id})[0]||B.people[0];sel.value=p.id;
+  F.forEach(function(k){document.getElementById('f-'+k).value=p[k]||''});draw();}
+function cur(){var p={};F.forEach(function(k){p[k]=document.getElementById('f-'+k).value.trim()});return p;}
+function draw(){var p=cur();document.getElementById('sig').innerHTML=render(B,p,V);document.getElementById('mob').textContent=renderText(B,p);}
+sel.addEventListener('change',function(){fill(sel.value)});
+F.forEach(function(k){document.getElementById('f-'+k).addEventListener('input',draw)});
+if(/iPhone|iPad|Android/i.test(navigator.userAgent)){document.getElementById('phone-note').hidden=false;document.getElementById('iphone').open=true;}
+var q=(location.search.match(/[?&]p=([a-z]+)/)||[])[1];fill(q||B.people[0].id);
+document.querySelectorAll('[data-copy]').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var id=btn.getAttribute('data-copy'),el=document.getElementById(id),done=document.getElementById('done-'+id);
+    var html=id==='mob'?el.textContent.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\n/g,'<br>'):el.innerHTML,txt=el.innerText;
+    function flash(){done.classList.add('on');setTimeout(function(){done.classList.remove('on')},4000)}
+    function fallback(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);
+      try{document.execCommand('copy');flash()}catch(e){} }
+    if(window.ClipboardItem&&navigator.clipboard&&navigator.clipboard.write){
+      navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([html],{type:'text/html'}),'text/plain':new Blob([txt],{type:'text/plain'})})]).then(flash,fallback);
+    } else fallback();
+  });
+});
+</script>
+</body>
+</html>

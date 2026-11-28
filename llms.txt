@@ -1,0 +1,23 @@
+# Quantock Lettings
+
+> Quantock Lettings Ltd is a letting agent in Taunton, Somerset. It finds homes for tenants and lets and manages properties for landlords across the Vale of Taunton, including Taunton, Bridgwater, Wellington, Bishops Lydeard and the Quantock Hills.
+
+- Address: 1 The Crescent, Taunton TA1 4EA
+- Phone: 01823 765654
+- Email: use the contact form at https://quantocklettings.co.uk/#contact
+- Company: Quantock Lettings Ltd, registered in England and Wales, company number 15929562
+- Team: Neil Hudson, Cheryl Hudson, Hattie Rogers
+- Google rating: 5.0 out of 5 from 2 Google reviews (https://maps.google.com/?cid=6663459979926804714)
+
+## Pages
+
+- [Home](https://quantocklettings.co.uk/): homes to rent, how we help landlords and tenants, the team and contact form
+- [Lettings and management](https://quantocklettings.co.uk/landlords): transfer your property, free rental valuation, fees (Fully managed £450 to £650 set-up depending on property size and number of tenants, then £50 to £120 a month; Tenant find only £475; Rent collection price on request; no VAT)
+- [Pollards Yard, Bridgwater](https://quantocklettings.co.uk/pollards-yard): brand-new two bedroom (the Polden) and four bedroom (the Loxleigh) homes to rent, plots 16 to 22 available soon (5 two bedroom Poldens on plots 16 to 20, 2 four bedroom Loxleighs on plots 21 and 22), in central Bridgwater opposite the bus station (Hinkley Point C bus pick-up) and about a 10 minute walk from the railway station, with EV charging and heat pump hot water; rents on request
+- [Landlord guide (PDF)](https://quantocklettings.co.uk/landlord-guide.pdf): how letting with Quantock Lettings works, services, fees and landlord responsibilities
+- [Tenant guide (PDF)](https://quantocklettings.co.uk/tenant-guide.pdf): renting with Quantock Lettings, from viewing to moving in and looking after the home
+- [Privacy notice](https://quantocklettings.co.uk/privacy)
+
+## Optional
+
+- [Full text of every page and guide](https://quantocklettings.co.uk/llms-full.txt)
